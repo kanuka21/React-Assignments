@@ -1,1 +1,27 @@
 
+<!DOCTYPE html> 
+<html> 
+<head>
+
+<title> </title>
+<body>
+    <center>
+    <form>
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td>
+                    <input type="text" name="user">
+
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" name="user_pass">                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
