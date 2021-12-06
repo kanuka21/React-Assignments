@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Sum of n Natural Numbers</title>
+    </head>
 
+<body>
+    <script>
+        
+        var i;
+        var sum=0;
+        var n= parseInt(prompt("enter the number:"));
+        for(i=1;i<=n;i++){
+            if(i%3==0 || i%5==0)
+            {
+                sum=sum+i;
+            }
+        }
+        console.log("sum of numbers is:", sum);
+      </script>
+
+
+</body>
+</html>
