@@ -12,6 +12,6 @@ const convertArrayToObj = (arr) => {
     return objectArray;
 } 
 
-let myArrayStr = ['Hello', 'How', 'Mahrashtra', 'Mumbai', 'to'];
+let myArrayStr = ['Hello', 'How', 'Uttar Pradesh', 'Meerut', 'to'];
 convertArrayToObj(myArrayStr);
 
