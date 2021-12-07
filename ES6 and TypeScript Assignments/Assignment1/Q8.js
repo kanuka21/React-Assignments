@@ -32,15 +32,10 @@ let totalBankBalance = (...accounts) => {
   return totalBalance;
 };
 
-const account1 = new SavingAccount(
-  151860002536,
-  "Kanuka Goel",
-  600000,
-  4000
-);
-const account2 = new CurrentAccount(151860002537, "John Doe", 25000, 10000);
-const account3 = new SavingAccount(151860002538, "Shriya Sam", 90000, 4000);
-const account4 = new CurrentAccount(151860002539, "Sita Doe", 30000, 5000);
+const account1 = new SavingAccount(151860002536,"Kanuka Goel",600000,4000);
+const account2 = new CurrentAccount(151860002537, "Akash Sharawat", 25000, 10000);
+const account3 = new SavingAccount(151860002538, "tani aggarwal", 90000, 4000);
+const account4 = new CurrentAccount(151860002539, "Shivi garg", 30000, 5000);
 
 console.log(
   "Total Balance in Bank is: " +
