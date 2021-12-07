@@ -2,11 +2,11 @@
 //Checking Variable Scope  
 
 function myHalfName(name){
-    if(name=="Priyanka"|| name=="Priya") {
-    let message = "Hii, Priya!!!";
+    if(name=="Kanuka"|| name=="Kanu") {
+    let message = "Hii, Kanu!!!";
     console.log(message); // Output: Hii, Priya!!!
      }
  console.log(message); // Output: Uncaught ReferenceError: message is not defined
  }
 
- myHalfName("Priya");
+ myHalfName("Kanu");
