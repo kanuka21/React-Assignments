@@ -34,13 +34,13 @@ let totalBankBalance = (...accounts) => {
 
 const account1 = new SavingAccount(
   151860002536,
-  "Priyanka Yadav",
-  500000,
-  2000
+  "Kanuka Goel",
+  600000,
+  4000
 );
 const account2 = new CurrentAccount(151860002537, "John Doe", 25000, 10000);
-const account3 = new SavingAccount(151860002538, "Shriya Sam", 90000, 2000);
-const account4 = new CurrentAccount(151860002539, "Sita Doe", 40000, 5000);
+const account3 = new SavingAccount(151860002538, "Shriya Sam", 90000, 4000);
+const account4 = new CurrentAccount(151860002539, "Sita Doe", 30000, 5000);
 
 console.log(
   "Total Balance in Bank is: " +
