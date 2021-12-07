@@ -1,14 +1,25 @@
-function* ArmstrongNumber(){
-    let i=0;
-    yield 1;
-    yield 153;
-    yield 370;
-    yield 371;
-    yield 407;
-    while(true){
-        return "error! avobe one thousend";
-    }
-
+interface Printable {
+    myName:string, 
+    print:()=>string 
 }
-const getNextArmStrong= ArmstrongNumber();
-console.log(getNextArmStrong.next().value)
+
+class MyCircle implements Printable {
+    myName = 'circle';
+    print(): string {return this.myName}
+}
+
+class MyEmployee implements Printable {
+    myName = 'Reshma';
+    print(): string {return this.myName}
+}
+
+const c2 = new MyCircle();
+const emp2 = new MyEmployee();
+
+const printAll = (...objs) => {
+    objs.forEach((obj)=> {
+        console.log(obj.print());
+    });
+}
+
+printAll(c2, emp2)
