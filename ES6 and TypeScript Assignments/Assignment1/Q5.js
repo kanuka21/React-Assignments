@@ -15,8 +15,8 @@ let userWithFriends = (userName, ...userFriends) => {
     console.log(`{userName: "${userName}", list of Friends is: "${userFriends}"}`);
 }
 
-userWithFriends('Priyanka','Ravi','OM','Sahil','Anees');
-userWithFriends('Ravi','Priyanka','OM','Jayraj');
+userWithFriends('Kanuka','Athira','Shilpi','Divya','Akash');
+userWithFriends('Athira','Kanuka','Shilpi','shivi');
 
 
 /************************************************************************** */
@@ -29,7 +29,7 @@ let printCapitalNames = (...names) => {
     console.log(`Names in Upper Case: "${result }"`);
 }
 
-let namesList = ['shreya','sagar','deepak','rutvik'];
+let namesList = ['shubh','amrit','ankur','tani'];
 console.log(namesList);
 printCapitalNames(...namesList);
 
